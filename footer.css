@@ -1,0 +1,38 @@
+.footer
+{
+    width: 100vw;
+    height: 30vh;
+    margin: 0px;
+    background-color: #8fe9f0;
+}
+
+.footer1
+{
+    width:100vw;
+    height: 55%;
+    margin: 0px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer2
+{
+    width: 100vw;
+    height: 15%;
+    margin: 0px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.subfooter
+{
+    width: 100vw;
+    height: 6vh;
+    margin: 0px;
+    color: white;
+
+    text-align: center;
+    background-color: #0082C3;
+}

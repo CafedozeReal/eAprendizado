@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="" style="color: #0082C3; text-decoration: none; font-size: 34px;">< voltar ao inicio</a>
+    <br>
+    <p style="font-size: 40px;">Crie uma conta</p>
+    <div style="display: flex; flex-direction: column; width: 100vw; align-items: center;">
+
+        <div>
+            <form action="" method="post" style="width: 100%">
+                <div style="display: flex; width: 95%; gap: 3vw">
+                    <button class="formA">Entrar com o Google</button>
+                    <button class="formA">Entrar com o FaceBook</button>
+                </div>
+            </form>
+            <br>
+            <div class="separator"><p>Ou</p></div>
+            <br>
+            <form asp-action="criar" method="post" style="width: 100%">
+                <div style="display: flex; width: 95%; gap: 3vw">
+                    <input type="text" placeholder="Primeiro nome" class="formA">
+                    <input type="text" placeholder="Último nome" class="formA">
+                </div>
+                <br>
+                <div style="display: flex; flex-direction: column; width: 95%; gap: 10px">
+                    <input type="email" placeholder="Email" class="formB">
+                    <input type="number" placeholder="Telefne" class="formB">
+                    <input type="password" placeholder="Senha" class="formB">
+                    <input type="password" placeholder="Confirmar senha" class="formB">
+                    <button type="submit" class="criar">Criar conta</button>
+                    <div style="display: flex; justify-content: right;"><p>Já tem uma conta? <a href="login.html" style="text-decoration: none; color: #0082C3;">Entrar</a></p></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
